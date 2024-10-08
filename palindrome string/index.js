@@ -1,3 +1,5 @@
+var year = new Date().getFullYear();
+document.getElementById('copyright-year').innerHTML=year;
 // getting userinput input field by id
 const inputString = document.getElementById('userString');
 

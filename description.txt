@@ -1,0 +1,19 @@
+
+Palindrome String App:
+Gets a word through prompt and prints YES if it is a ” palindrome string” and NO otherwise. It continues receiving new
+phrases until the user sends an empty string. On empty string the window will prompt the user that application will go back
+to the home page.
+
+100 Boxes App:
+Implements a web page which consists of a form which accepts following inputs:
+1. A group of RadioButtons with these values.
+a. Random
+b. Square
+c. Circle
+After the customer clicks the button, the app creates 100 boxes and locates them based on the
+value of RadioButton. When the mouse moves over a box, the box is removed from the
+div. When the div has one child box, an alert pop up that says, "last child!".
+For example, if the random is selected, the app locates boxes inside a div with the id
+container.
+If the Circle is chosen, locates the boxes in a circular shape inside the div of the boxes.
+If the user clicks "Generate More" button, 100 more random boxes will be generated.

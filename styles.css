@@ -1,0 +1,102 @@
+* {
+  
+  box-sizing: border-box;
+}
+html {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  width: 100%;
+  background: #eee;
+  background-image: url('https://img.freepik.com/free-vector/stylish-hexagonal-line-pattern-background_1017-19742.jpg?t=st=1655919587~exp=1655920187~hmac=1e7f81fbbe5f524b4cf37c351f1c7af0ed74718654815f40189c5bad7e1e0bc2&w=1380');
+  /* Center and scale the image nicely */
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+header {
+  width: 100%;
+  background-color: #f5ba13;
+  
+  padding: 16px 32px;
+  
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+  color: #fff;
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+  text-align: center;
+}
+
+footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  background-color: #f5ba13;
+
+}
+
+footer p {
+  padding-top: 10px;
+  color: #fff;
+
+  
+}
+
+ p {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+
+#form {
+
+  position: relative;
+  width: 480px;
+  margin: 30px auto 20px auto;
+  background: #fff;
+  padding: 15px;
+  border-radius: 7px;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+  
+}
+input
+ {
+  width: 100%;
+  border: none;
+  padding: 4px;
+  outline: none;
+  font-size: 1.2em;
+  font-family: inherit;
+  resize: none;
+  
+}
+button {
+  position: absolute;
+  float: right;
+  margin-right: 10px;
+  right: 18px;
+  bottom: -18px;
+  background: #f5ba13;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  width: 36px;
+  height: 36px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  outline: none;
+}
+
+svg{
+  width:2em;
+   height: 2em;
+   color: white;
+
+}

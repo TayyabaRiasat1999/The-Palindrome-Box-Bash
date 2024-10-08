@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <title>Palindrome String</title>
+    <link font-family: "Montserrat", sans-serif;
+    href="https://fonts.googleapis.com/css?family=McLaren|Montserrat&display=swap"
+    rel="stylesheet" />
+    <link rel="stylesheet" href="../styles.css" />
+  	<link id="external-css" rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat&amp;display=swap" media="all">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+  <body>
+      
+      <header >
+        <div class="row">
+          <div class="col-1">
+            <a href="..\home.html"><svg xmlns="http://www.w3.org/2000/svg" fill="white" class="bi bi-arrow-bar-left" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M12.5 15a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5M10 8a.5.5 0 0 1-.5.5H3.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L3.707 7.5H9.5a.5.5 0 0 1 .5.5"/>
+            </svg></a>
+          </div>
+          <div class="col-11">
+            <h1>Palindrome String</h1>
+          </div>
+        </div>
+      </header>
+      <br><br><br><br>
+      <div class="form-group" id="form">
+        <input type="text" id="userString" placeholder="Enter a string to find palindrome." class="form-control">
+        <audio id="correctanswer" preload="auto">
+          <source src="./audio/correct.mp3" type="audio/mp3" >
+        </audio>
+        <audio id="wronganswer" preload="auto">
+          <source src="./audio/wrong.mp3" type="audio/mp3" >
+        </audio>
+        <button onclick="myfunction()" id="myButton" >✔</button>
+        
+        <br><br>
+        <p id="displayText"> </p>
+        
+      </div>
+            
+      <footer >
+        <p >Made by Tayyaba Riasat Copyright ⓒ <span id="copyright-year"></span></p>
+      </footer>
+      <script type="text/javascript" src="index.js"></script>
+    
+    
+  </body>
+</html>
